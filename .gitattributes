@@ -1,5 +1,11 @@
 # Exclude everything from being counted
 * linguist-vendored
 
-# Include only the files in Assets/Scripts
+# Un-ignore the Assets directory
+!/Assets/
+
+# Un-ignore the Scripts directory within Assets
+!/Assets/Scripts/
+
+# Un-ignore all files and subdirectories in Assets/Scripts
 !/Assets/Scripts/**
